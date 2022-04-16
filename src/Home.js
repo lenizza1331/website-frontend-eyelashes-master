@@ -24,10 +24,10 @@ return (
         </h2>
         <div className="first-screen__right__links">
             <ul>
-            <li><a target="_blank" href="https://vk.com/nadiralashpm"><img className='icons' alt="icon" src={vk}/></a></li>
-                    <li><a target="_blank" href="https://mail.ru/"><img className='icons' alt="icon" src={telegram}/></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/nadira.lash.pm/"><img className='icons' alt="icon" src={insta}/></a></li>
-                    <li><a target="_blank" href="https://wa.me/79259320924"><img className='icons' alt="icon" src={whatsapp}/></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://vk.com/nadiralashpm"><img className='icons' alt="icon" src={vk}/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://mail.ru/"><img className='icons' alt="icon" src={telegram}/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nadira.lash.pm/"><img className='icons' alt="icon" src={insta}/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://wa.me/79259320924"><img className='icons' alt="icon" src={whatsapp}/></a></li>
             </ul>
         </div>
     </div>
