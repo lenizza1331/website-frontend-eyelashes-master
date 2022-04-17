@@ -283,8 +283,8 @@ cursor: pointer;
     width: 50%;
     max-height: 50vh;
     position: absolute;
-    left: 190px;
-    /* top: 0; */
+    left: 130px;
+    top: 60;
     flex-direction: column;
 
   }
@@ -293,7 +293,7 @@ cursor: pointer;
     height: 50vh;
 
   }
-  .icons {
+  .links-row .icons {
     width: 15px;
     height: 15px;
     padding: 5px;
@@ -352,5 +352,8 @@ cursor: pointer;
 .clicked {
   transform: scale(1.3);
   translate: center center ;
+}
+.price {
+  width: 250px;
 }
 }
