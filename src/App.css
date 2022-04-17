@@ -356,4 +356,15 @@ cursor: pointer;
 .price {
   width: 250px;
 }
+.change {
+  background-color: #F38BA0;
+  border-radius: 10px;
+  margin: 4px;
+  color: white;
+  padding:4px 10px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+cursor: pointer;
+}
 }
