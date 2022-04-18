@@ -37,6 +37,7 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar__links {
   display: flex;
@@ -83,7 +84,6 @@ font-family: 'Montserrat', sans-serif; */
     width: 43%
 }
 .first-screen__right {
-  /* position: absolute; */
   width: 57%;
   font-family: 'Cormorant Infant', serif;
   font-size: 40px;
@@ -225,6 +225,19 @@ cursor: pointer;
 
 
 
+/* MOBILE MENU */
+.navbar__mobile {
+  display: none;
+}
+.text-xl {
+  font-size: 30px;
+  color: #2BA9AE;
+  margin: 10px;
+}
+
+
+
+
 
 
 
@@ -239,6 +252,7 @@ cursor: pointer;
   }
   .first-screen__right {
     font-size: 25px;
+    height: 45vh;
   }
   .about__row img {
     max-height: 300px;
@@ -263,17 +277,14 @@ cursor: pointer;
   }
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:650px){
   .title {
     font-size: 18px;
   }
   .navbar__content{
     margin: 0;
   }
-  .nav__link {
-    font-size: 10px;
-    padding: 7px;
-  }
+  
   .navbar__logo img {
     max-width: 30px;
   }
@@ -283,7 +294,7 @@ cursor: pointer;
     width: 50%;
     max-height: 50vh;
     position: absolute;
-    left: 130px;
+    left: 165px;
     top: 60;
     flex-direction: column;
 
@@ -367,4 +378,70 @@ cursor: pointer;
   font-size: 14px;
 cursor: pointer;
 }
+.navbar__links {
+  display: none;
+}
+.navbar__mobile {
+  display: block;
+}
+.nav__link {
+  font-size: 20px;
+  padding: 20px 15px;
+}
+.navbar__mobile__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: #FCD8D4;
+  top: 50px;
+  left: 8px;
+  z-index: 999;
+  width: 80vw;
+  height: 100vh;
+}
+.menuMask {
+  background-color: #2BA9AE;
+  position: fixed;
+  top: 50px;
+  left: 8px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  opacity: 0.5;
+  cursor: pointer;
+}
+}
+
+
+@media all and (max-width:300px){
+  .first-screen__right {
+    font-size: 12px;
+    line-height: 194%;
+    width: 26%;
+    max-height: 46vh;
+    position: absolute;
+    left: 127px;
+    top: 60;
+    flex-direction: column;
+  }
+  .icons {
+    width: 15px;
+    height: 15px;
+  }
+
+  .nav__link {
+    font-size: 11px;
+    padding: 17px 15px;
+}
+.text-xl {
+  font-size: 26px;
+}
+.service__content h3 {
+  font-size: 22px;
+}
+.service__image {
+  max-width: 240px;
+}
+
 }

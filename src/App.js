@@ -12,6 +12,7 @@ import Price from './Price';
 import Eyelashes from './Eyelashes';
 import Permanent from './Permanent';
 import Home from './Home';
+import Menu from './Menu';
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
         <Link className='nav__link' to="/price">Цены</Link>
         <Link className='nav__link' to="/contact">Контакты</Link>
       </div> 
+      <Menu/>
     </div>
+    
   </nav>
     <Routes>
       <Route path="/" element={<Home />} />
