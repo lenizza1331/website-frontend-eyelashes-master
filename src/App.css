@@ -406,7 +406,7 @@ cursor: pointer;
   position: fixed;
   top: 50px;
   left: 8px;
-  width: 100vw;
+  width: 96vw;
   height: 100vh;
   z-index: 999;
   opacity: 0.5;
