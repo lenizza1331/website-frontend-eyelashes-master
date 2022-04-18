@@ -392,6 +392,7 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   position: fixed;
   background-color: #FCD8D4;
   top: 50px;
